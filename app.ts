@@ -6,6 +6,7 @@ function handleUpdate() {
 		`--${this.name}`,
 		this.value + suffix
 	);
+	console.log(this);
 }
 
 inputs.forEach((input) => input.addEventListener("change", handleUpdate));
